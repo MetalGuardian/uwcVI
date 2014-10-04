@@ -1,0 +1,154 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9c7f633a09c3e03650025c76d50c7d44",
+    "packages": [
+        {
+            "name": "php-activerecord/php-activerecord",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpfuentes2/php-activerecord.git",
+                "reference": "3c4331ddc9ec963fdd4c689a854b4a21b64ba2af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jpfuentes2/php-activerecord/zipball/3c4331ddc9ec963fdd4c689a854b4a21b64ba2af",
+                "reference": "3c4331ddc9ec963fdd4c689a854b4a21b64ba2af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "pear/log": "dev-master",
+                "pear/pear_exception": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ActiveRecord.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern.",
+            "homepage": "http://www.phpactiverecord.org/",
+            "keywords": [
+                "activerecord",
+                "orm"
+            ],
+            "time": "2014-07-19 21:27:26"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "884b9f29c664b6ec6b36887377e1cc2be7cba00e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/884b9f29c664b6ec6b36887377e1cc2be7cba00e",
+                "reference": "884b9f29c664b6ec6b36887377e1cc2be7cba00e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "description": "PHP Curl Class is an object-oriented wrapper of the PHP cURL extension.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "class",
+                "curl",
+                "php"
+            ],
+            "time": "2014-09-27 09:56:58"
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim.git",
+                "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim/zipball/4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
+                "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "Required for HTTP cookie encryption"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2014-04-05 18:33:59"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "php-curl-class/php-curl-class": 20,
+        "php-activerecord/php-activerecord": 20
+    },
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
