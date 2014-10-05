@@ -100,10 +100,7 @@
 		<div class="panel-body">
 			<a href="/update-tanks-stat" class="btn btn-primary btn-xs">Update tank stats (base tanks from encyclopedia)</a>
 			<a href="/update-tanks-scores" class="btn btn-primary btn-xs">Update only tank scores</a>
-			<a href="/update" class="btn btn-primary btn-xs">Update all tables</a>
-			<a href="/update-clans" class="btn btn-primary btn-xs">Update clans</a>
-			<a href="/update-members" class="btn btn-primary btn-xs">Update clan members</a>
-			<a href="/update-member-tanks" class="btn btn-primary btn-xs">Update member tanks (take about 10 min)</a>
+			<a href="/update" class="btn btn-primary btn-xs">Update all tables (take about 10 min)</a>
 		</div>
 	</div>
 </div>
