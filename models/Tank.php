@@ -18,6 +18,7 @@ use ActiveRecord\Model;
  * @property $gun_damage_min
  * @property $max_health
  * @property $gun_damage_max
+ * @property $score
  */
 class Tank extends Model
 {
